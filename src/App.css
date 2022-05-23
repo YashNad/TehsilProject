@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.login {
   min-height: 100vh;
-  display: flex;
+}
+.bg-image {
+  background-image: url('https://wallpapercave.com/wp/oYIyvdX.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.login-heading {
+  font-weight: 300;
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+.invalid
+{
+  border-color: red!important;
+}
+.width-100{
+  width:100%;
+}
+.justify-content-space-around{
+  justify-content: space-around;
+}
+.flex-direction-column{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.color-white{
+  color:white;
+}
+.fs-40{
+  font-size:40px;
+}
+.padding-top-5vh{
+  padding-top: 5vh;
+}
+.download {
+  display: inline-block;
+    text-decoration: none;
+    border: 2px solid #D9EDFF;
+    color: #116dfa;
+    font-size: 22px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 100px;
+    padding: 0 22px;
+    width: 100%;
+    transition: all 0.3s;
+    background: #fff;
+    margin-right: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.download:hover {
+  box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+  background: #e1e1e1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-600{
+  font-weight: 600;
+}
+.width-25vw{
+  width: 25vw;
+}
+.m-r-10{
+  margin-right: 10px;
+}
+.m-r-18{
+  margin-right: 18px;
+}
+.fs-22{
+  font-size:22px !important;
+}
+.p-t-24{
+  padding-top:24vh;
 }
