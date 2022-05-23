@@ -1,3 +1,24 @@
+**Folder Structure
+1.Create Page Folder for all pages
+2.Create Route in app.js
+3.Route app.js in index.js
+4.Create assets folder (rename public)
+
+**Dashboard
+1.Data Entry Clerk
+2.Verification Clerks
+3.Tehsildar
+4.Super Admin
+
+**Login
+1.Login Page UI. Done
+2.Login Page Jsx file.
+
+**Login Page UI Changes
+1.Login Button Resize
+2.Change icons
+3.Check Sizes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
